@@ -1,8 +1,8 @@
-import React from "react";
-import { Routes, Route } from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import HomePage from "./Components/HomePage";
-import DetailsPage from "./Components/DetailsPage";
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import HomePage from './Components/HomePage';
+import DetailsPage from './Components/DetailsPage';
 
 const App = () => (
   <div className="nav">
