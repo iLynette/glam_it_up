@@ -12,12 +12,14 @@ export const fetchProductFromApi = () => async (dispatch) => {
           'https://fakestoreapi.com/products'
         );
         dispatch(fetchProducts(fetchData));
+        console.log(fetchData, 'data from product reducer')
     } catch (error) { throw new Error(error);}
 };
 
 const productReducer = (state = defaultState, action) => {
     switch (action.type) {
         case FETCH_PRODUCTS:
+            console.log(action.payload.fetchData, 'payload');
           return [
               ...action.payload.fetchData
           ];
