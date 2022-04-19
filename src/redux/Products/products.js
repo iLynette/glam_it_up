@@ -12,5 +12,18 @@ export const fetchProductFromApi = () => async (dispatch) => {
           'https://fakestoreapi.com/products'
         );
         dispatch(fetchProducts(fetchData));
+    } catch (error) { throw new Error(error);}
+};
+
+const productReducer = (state = defaultState, action) => {
+    switch (action.type) {
+        case FETCH_PRODUCTS:
+          return [
+              ...action.payload.fetchData
+          ];
+        default:
+          return state;
     }
 }
+
+export default productReducer;
