@@ -1,27 +1,25 @@
 const FETCH_PRODUCTS = 'glam_it_up/redux/Product/FETCH_PRODUCTS';
+import axios from "axios";
 
 const defaultState = [];
+
 export const fetchProducts = (payload) => ({
     type: FETCH_PRODUCTS,
-    payload
+    payload,
 })
 
 export const fetchProductFromApi = () => async (dispatch) => {
-    try {
-        const fetchData = await fetch(
-          'https://fakestoreapi.com/products'
+    const data = await axios.get(
+          'http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline'
         );
-        dispatch(fetchProducts(fetchData));
-        console.log(fetchData, 'data from product reducer')
-    } catch (error) { throw new Error(error);}
+        dispatch(fetchProducts(data));
 };
 
 const productReducer = (state = defaultState, action) => {
     switch (action.type) {
         case FETCH_PRODUCTS:
-            console.log(action.payload.fetchData, 'payload');
           return [
-              ...action.payload.fetchData
+              ...action.payload.data
           ];
         default:
           return state;
