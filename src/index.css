@@ -1,3 +1,6 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans');
+@import url('http://fonts.cdnfonts.com/css/lato');
+
 :root {
   --main: #fb5092;
   --first: #fc5193;
@@ -12,7 +15,7 @@
   color: #000;
   text-decoration: none;
   list-style-type: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
@@ -38,12 +41,21 @@ body {
 }
 
 .products > div {
-  border: 1px solid #fff;
+  border: 1px solid #dbe7f7;
+  background-color: #ce3771;
   height: 200px;
+}
+
+.products > div:nth-child(4n+2),
+.products > div:nth-child(4n+3) {
+  background-color: #cf4277;
 }
 
 .products p {
   margin: 20px;
+  color: #fff;
+  font-weight: bold;
+  width: 20rem;
 }
 
 .products img {
