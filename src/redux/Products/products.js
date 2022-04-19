@@ -8,6 +8,9 @@ export const fetchProducts = (payload) => ({
 
 export const fetchProductFromApi = () => async (dispatch) => {
     try {
-        const fetchData = await fetch('https://fakestoreapi.com/products');
+        const fetchData = await fetch(
+          'https://fakestoreapi.com/products'
+        );
+        dispatch(fetchProducts(fetchData));
     }
 }
