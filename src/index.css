@@ -1,9 +1,22 @@
+:root {
+  --main: #fb5092;
+  --first: #fc5193;
+  --second: #e64684;
+  --third: #d4457b;
+  --dark: #cf4277;
+}
+
 * {
   margin: 0;
   padding: 0;
   color: #000;
   text-decoration: none;
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #fb5092;
 }
 
 .navBar {
@@ -15,4 +28,25 @@
 .navMenu {
   display: flex;
   gap: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(2, 30rem);
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.products > div {
+  border: 1px solid #fff;
+  height: 200px;
+}
+
+.products p {
+  margin: 20px;
+}
+
+.products img {
+  width: 99%;
+  height: 200px;
 }
