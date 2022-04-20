@@ -18,16 +18,16 @@ const DetailsPage = () => {
             </div>
             <div>
               <p id={product.id}>
-                  <span className="description">{product.name}</span>
+                <span className="description">{product.name}</span>
               </p>
               <p id={product.id}>
-                  <span className="description">{product.description}</span>
+                <span className="description">{product.description}</span>
               </p>
               <p id={product.id}>
-                  <span className="description">{product.product_type}</span>
+                <span className="description">{product.product_type}</span>
               </p>
               <p id={product.id}>
-                  <span className="description">{product.price}</span>
+                <span className="description">{product.price}</span>
               </p>
             </div>
           </div>
@@ -35,6 +35,6 @@ const DetailsPage = () => {
       </div>
     </>
   );
-}
+};
 
 export default DetailsPage;
