@@ -35,18 +35,18 @@ body {
 
 .products {
   display: grid;
-  grid-template-columns: repeat(2, 30rem);
+  grid-template-columns: repeat(3, 30rem);
   justify-content: center;
   margin-top: 50px;
 }
 
 .products > div {
-  border: 1px solid #dbe7f7;
+  border: 1px solid #cf4277;
   background-color: #ce3771;
   height: 200px;
 }
 
-.products > div:nth-child(4n+2),
+.products > div:nth-child(4n+1),
 .products > div:nth-child(4n+3) {
   background-color: #cf4277;
 }
