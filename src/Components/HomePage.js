@@ -14,8 +14,8 @@ const HomePage = () => {
         {data.map((product) => (
           <div key={product.id}>
             <p>{product.name}</p>
+            <p>{product.product_type}</p>
             <p>{product.price}</p>
-            <p>{product.id}</p>
             {/* <p key={product.id}>{product.description}</p> */}
             {/* <p key={product.id}>
               <img src={product.image_link} alt={product.title} />
