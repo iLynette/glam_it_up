@@ -9,7 +9,17 @@ const DetailsPage = () => {
     dispatch(fetchProductFromApi());
   }, []);
   return (
-    <div>DetailsPage</div>
+    <>
+      <div className="details">
+        {data.map((product) => (
+          <div className="container" key={product.id}>
+            <div>
+              <img src={product.image_link} alt={product.title} />
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 }
 
