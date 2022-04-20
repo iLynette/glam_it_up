@@ -16,6 +16,12 @@ const DetailsPage = () => {
             <div>
               <img src={product.image_link} alt={product.title} />
             </div>
+            <div>
+              <p id={product.id}>
+                  Name
+                  <span className="description">{product.name}</span>
+              </p>
+            </div>
           </div>
         ))}
       </div>
