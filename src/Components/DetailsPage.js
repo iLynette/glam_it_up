@@ -12,7 +12,7 @@ const DetailsPage = () => {
     <>
       <div className="details">
         {data.map((product) => (
-          <div className="container" key={product.id}>
+          <div className="productContainer" key={product.id}>
             <div>
               <img src={product.image_link} alt={product.title} />
             </div>

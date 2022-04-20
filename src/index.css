@@ -62,3 +62,14 @@ body {
   width: 99%;
   height: 200px;
 }
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
