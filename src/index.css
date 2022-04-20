@@ -2,7 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
 
 :root {
-  --main: #fb5092;
+  --main: #ec4c8a;
   --first: #fc5193;
   --second: #e64684;
   --third: #d4457b;
@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #fb5092;
+  background-color: var(--main);
 }
 
 .navBar {
