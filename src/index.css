@@ -2,7 +2,7 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
 
 :root {
-  --main: #fb5092;
+  --main: #ec4c8a;
   --first: #fc5193;
   --second: #e64684;
   --third: #d4457b;
@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: #fb5092;
+  background-color: var(--main);
 }
 
 .navBar {
@@ -61,4 +61,32 @@ body {
 .products img {
   width: 99%;
   height: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.details p {
+  padding: 10px;
+}
+
+.details img {
+  width: 35vw;
+}
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.description,
+.ptype,
+.price,
+.name {
+  color: #fff;
 }
