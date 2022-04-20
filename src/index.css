@@ -66,10 +66,27 @@ body {
 .details {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.details p {
+  padding: 10px;
+}
+
+.details img {
+  width: 35vw;
 }
 
 .productContainer {
   display: flex;
   padding: 20px;
   gap: 20px;
+}
+
+.description,
+.ptype,
+.price,
+.name {
+  color: #fff;
 }
