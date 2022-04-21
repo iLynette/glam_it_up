@@ -20,4 +20,8 @@ const Categories = (props) => {
     )
 }
 
+Categories.propTypes = {
+    handleClick: PropTypes.func.isRequired,
+}
+
 export default Categories
