@@ -7,7 +7,7 @@ const Btn = (props) => {
     const { id } = props;
     const { handleClick } = props;
     return (
-        <NavLink className="btn" onClick={handleClick} to={`/details/${id}`}>
+        <NavLink className="btn" onClick={handleClick} to={`/DetailsPage/${id}`}>
             <HiArrowCircleRight />
         </NavLink>
     )
