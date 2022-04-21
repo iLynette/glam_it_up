@@ -2,18 +2,18 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 const Categories = (props) => {
-  const [productType, setProductType] = useState('');
+  const [product, setProductType] = useState('');
   const data = props;
-  const newItem = [...new Set(data.data.map((makeup) => makeup.productType))];
+  const newItem = [...new Set(data.data.map((makeup) => makeup.product_type))];
   const { handleClick } = props;
 
   return (
     <select className="items" onChange={(e) => setProductType(e.target.value)} onClick={handleClick} required>
       <option value="select a product type">select a product type</option>
-      <option value={productType} aria-label="Save" />
-      {newItem.map((productType) => (
-        <option key={productType} value={productType}>
-          {productType}
+      <option value={product} aria-label="Save" />
+      {newItem.map((product) => (
+        <option key={product} value={product}>
+          {product}
         </option>
       ))}
     </select>
