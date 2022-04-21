@@ -11,7 +11,8 @@ const DetailsPage = () => {
   }, []);
   const { id } = useParams();
   const filterProducts = data.filter(
-    (product) => product.id === parseInt(id, 10));
+    (product) => product.id === parseInt(id, 10),
+  );
   return (
     <>
       <div className="details">

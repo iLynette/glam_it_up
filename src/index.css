@@ -96,6 +96,12 @@ body {
   padding: 10px;
 }
 
+select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .productContainer {
   display: flex;
   padding: 20px;

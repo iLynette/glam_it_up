@@ -9,8 +9,10 @@ const Categories = (props) => {
 
   return (
     <select className="items" onChange={(e) => setProductType(e.target.value)} onClick={handleClick} required>
-      <option value="select a product type">select a product type</option>
-      <option value={product} aria-label="Save" />
+      <option value="select a product type">
+        select a product type
+        {product}
+      </option>
       {newItem.map((product) => (
         <option key={product} value={product}>
           {product}
