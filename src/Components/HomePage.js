@@ -15,7 +15,9 @@ const HomePage = () => {
   const handleClick = (e) => {
     setValue(e.target.value);
   };
-  const filterProducts = data.filter((product) => product.product_type.toLowerCase().includes(value.toLowerCase()));
+  const filterProducts = data.filter(
+    (product) => product.product_type.toLowerCase().includes(value.toLowerCase()),
+  );
   return (
     <>
       <Categories data={data} handleClick={handleClick} />
