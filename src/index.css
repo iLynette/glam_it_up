@@ -107,4 +107,33 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: -1px -1px 1px 2px #ce3771;
+  }
 
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 15rem);
+    justify-content: center;
+    margin: 30px;
+  }
+
+  .products > div {
+    border: 1px solid #cf4277;
+    background-color: #ce3771;
+    height: auto;
+    width: auto;
+  }
+
+  .products p {
+    margin: 20px;
+    color: #fff;
+    font-weight: bold;
+    width: auto;
+  }
+}
