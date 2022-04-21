@@ -13,4 +13,9 @@ const Btn = (props) => {
     )
 }
 
+Btn.propTypes = {
+    handleClick: PropTypes.func.isRequired,
+    id: PropTypes.number.isRequired,
+}
+
 export default Btn
