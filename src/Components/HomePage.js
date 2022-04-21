@@ -36,7 +36,21 @@ const HomePage = () => {
             </p> */}
           </div>
         ))
-        
+        : filterProducts.map((product) => (
+          <div key={product.id}>
+            <p className="title" id={product.id}>
+              {product.name}
+              <Btn id={product.id} />
+            </p>
+            <p className="product-type" id={product.id}>
+              {product.product_type}
+            </p>
+            <p className="product-price" id={product.id}>
+              {product.price}
+            </p>
+          </div>
+        )
+        )}
       </div>
     </>
   );
