@@ -1,0 +1,220 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The homepage renders its UI properly UI renders correctly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <HomePage />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <HomePage />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <HomePage />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "nodeType": "component",
+              "props": Object {
+                "data": Array [],
+                "handleClick": [Function],
+              },
+              "rendered": Object {
+                "instance": null,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value="select a product type"
+                    >
+                      select a product type
+                      
+                    </option>,
+                    Array [],
+                  ],
+                  "className": "items",
+                  "onChange": [Function],
+                  "onClick": [Function],
+                  "required": true,
+                },
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "select a product type",
+                        "",
+                      ],
+                      "value": "select a product type",
+                    },
+                    "rendered": Array [
+                      "select a product type",
+                    ],
+                    "type": "option",
+                  },
+                  null,
+                ],
+                "type": "select",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+                "className": "products",
+              },
+              "rendered": Array [],
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;
+
+exports[`renders details properly UI renders correctly 1`] = `
+Object {
+  "instance": null,
+  "nodeType": "component",
+  "props": Object {},
+  "rendered": Object {
+    "instance": null,
+    "nodeType": "component",
+    "props": Object {
+      "children": <BrowserRouter>
+        <DetailsPage />
+      </BrowserRouter>,
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+    },
+    "rendered": Object {
+      "instance": null,
+      "nodeType": "component",
+      "props": Object {
+        "children": <DetailsPage />,
+      },
+      "rendered": Object {
+        "instance": null,
+        "nodeType": "component",
+        "props": Object {
+          "basename": undefined,
+          "children": <DetailsPage />,
+          "location": Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          },
+          "navigationType": "POP",
+          "navigator": Object {
+            "action": "POP",
+            "back": [Function],
+            "block": [Function],
+            "createHref": [Function],
+            "forward": [Function],
+            "go": [Function],
+            "listen": [Function],
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "push": [Function],
+            "replace": [Function],
+          },
+        },
+        "rendered": Object {
+          "instance": null,
+          "nodeType": "component",
+          "props": Object {},
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "details",
+            },
+            "rendered": Array [],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  "type": [Function],
+}
+`;

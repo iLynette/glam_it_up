@@ -55,11 +55,22 @@ body {
   padding-right: 20px;
 }
 
+.items {
+  background-color: #ce3771;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 5%;
+  padding: 16px;
+  font-size: 18px;
+  color: #fff;
+}
+
 .products {
   display: grid;
   grid-template-columns: repeat(3, 30rem);
   justify-content: center;
-  margin-top: 50px;
 }
 
 .products > div {
@@ -94,12 +105,6 @@ body {
 
 .details p {
   padding: 10px;
-}
-
-select {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .productContainer {
