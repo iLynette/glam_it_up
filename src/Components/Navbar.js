@@ -13,21 +13,11 @@ const Navbar = () => (
           </NavLink>
         </li>
       </ul>
-      {/* <MdOutlineSentimentVerySatisfied /> */}
       <h3>
         Glam It Up
       </h3>
       <HiMicrophone />
     </div>
-    {/* <div className="nav">
-      <ul className="navMenus">
-        <li>
-          <NavLink className="home" to="/">
-            <MdKeyboardArrowLeft />
-          </NavLink>
-        </li>
-      </ul>
-    </div> */}
   </nav>
 );
 
