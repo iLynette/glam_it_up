@@ -2,8 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { HiMicrophone } from 'react-icons/hi';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
-import { FaRegSun } from "react-icons/fa";
-
+import { FaRegSun } from 'react-icons/fa';
 
 const Navbar = () => (
   <nav className="navigationBar">
