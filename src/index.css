@@ -1,0 +1,172 @@
+@import url('http://fonts.cdnfonts.com/css/gill-sans');
+@import url('http://fonts.cdnfonts.com/css/lato');
+
+:root {
+  --main: #ec4c8a;
+  --first: #fc5193;
+  --second: #e64684;
+  --third: #d4457b;
+  --dark: #cf4277;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: var(--main);
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 140px;
+  box-shadow: -1px -1px 1px 2px #ce3771;
+}
+
+.arrow {
+  color: #fff;
+}
+
+.btn {
+  font-size: 19px;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 50%;
+  color: var(--main);
+  display: flex;
+  align-self: start;
+  margin-top: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.navigationBar span {
+  color: #fff;
+  font-size: 22px;
+}
+
+.navigationBar h3 {
+  color: #fff;
+  font-size: 20px;
+}
+
+.min {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.items {
+  background-color: #ce3771;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 5%;
+  padding: 16px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 30rem);
+  justify-content: center;
+}
+
+.products > div {
+  border: 1px solid #cf4277;
+  background-color: #ce3771;
+  height: 200px;
+}
+
+.products > div:nth-child(4n+1),
+.products > div:nth-child(4n+3) {
+  background-color: #cf4277;
+}
+
+.products p {
+  margin: 20px;
+  color: #fff;
+  font-weight: bold;
+  width: 20rem;
+}
+
+.products img {
+  width: 99%;
+  height: 200px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.details p {
+  padding: 10px;
+}
+
+.productContainer {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.description,
+.ptype,
+.price,
+.name {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .navMenus h3 {
+    color: #fff;
+  }
+
+  .arrow {
+    font-size: 24px;
+    color: #fff;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+  }
+
+  .products > div {
+    border: 1px solid #cf4277;
+    background-color: #ce3771;
+    height: auto;
+    width: auto;
+  }
+
+  .products p {
+    margin: 20px;
+    color: #fff;
+    font-weight: bold;
+    width: auto;
+  }
+}

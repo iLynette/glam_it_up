@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The homepage render properly renders correctly 1`] = `
+Array [
+  <select
+    className="items"
+    onChange={[Function]}
+    required={true}
+  >
+    <option
+      value="select a product type"
+    >
+      select a product type
+    </option>
+  </select>,
+  <div
+    className="products"
+  />,
+]
+`;
