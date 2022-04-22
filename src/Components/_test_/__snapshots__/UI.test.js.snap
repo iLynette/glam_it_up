@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`The homepage renders its UI properly UI renders correctly 1`] = `
+exports[`renders details properly UI renders correctly 1`] = `
 Object {
   "instance": null,
   "nodeType": "component",
@@ -10,7 +10,7 @@ Object {
     "nodeType": "component",
     "props": Object {
       "children": <BrowserRouter>
-        <HomePage />
+        <DetailsPage />
       </BrowserRouter>,
       "store": Object {
         "@@observable": [Function],
@@ -24,14 +24,14 @@ Object {
       "instance": null,
       "nodeType": "component",
       "props": Object {
-        "children": <HomePage />,
+        "children": <DetailsPage />,
       },
       "rendered": Object {
         "instance": null,
         "nodeType": "component",
         "props": Object {
           "basename": undefined,
-          "children": <HomePage />,
+          "children": <DetailsPage />,
           "location": Object {
             "hash": "",
             "key": "default",
@@ -63,65 +63,16 @@ Object {
           "instance": null,
           "nodeType": "component",
           "props": Object {},
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "nodeType": "component",
-              "props": Object {
-                "data": Array [],
-                "handleClick": [Function],
-              },
-              "rendered": Object {
-                "instance": null,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [
-                    <option
-                      value="select a product type"
-                    >
-                      select a product type
-                      
-                    </option>,
-                    Array [],
-                  ],
-                  "className": "items",
-                  "onChange": [Function],
-                  "onClick": [Function],
-                  "required": true,
-                },
-                "rendered": Array [
-                  Object {
-                    "instance": null,
-                    "nodeType": "host",
-                    "props": Object {
-                      "children": Array [
-                        "select a product type",
-                        "",
-                      ],
-                      "value": "select a product type",
-                    },
-                    "rendered": Array [
-                      "select a product type",
-                    ],
-                    "type": "option",
-                  },
-                  null,
-                ],
-                "type": "select",
-              },
-              "type": [Function],
+          "rendered": Object {
+            "instance": null,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+              "className": "details",
             },
-            Object {
-              "instance": null,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [],
-                "className": "products",
-              },
-              "rendered": Array [],
-              "type": "div",
-            },
-          ],
+            "rendered": Array [],
+            "type": "div",
+          },
           "type": [Function],
         },
         "type": [Function],
