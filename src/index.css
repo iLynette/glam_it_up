@@ -71,6 +71,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 30rem);
   justify-content: center;
+
   /* margin-top: 50px; */
 }
 
