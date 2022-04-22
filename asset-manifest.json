@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/glam_it_up/static/css/main.05b5919e.css",
+    "main.js": "/glam_it_up/static/js/main.fd5233f7.js",
+    "index.html": "/glam_it_up/index.html",
+    "main.05b5919e.css.map": "/glam_it_up/static/css/main.05b5919e.css.map",
+    "main.fd5233f7.js.map": "/glam_it_up/static/js/main.fd5233f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05b5919e.css",
+    "static/js/main.fd5233f7.js"
+  ]
+}
