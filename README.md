@@ -2,11 +2,13 @@
 
 # Space Traveler
 
-![screenshot](./src/images/screenshot.png)
+> Glam It Up website is built with real live data from the Make up API. The application displays a variety of beauty products such as lipsticks, bronzers, foundation among many other products. You can select any product type that is available and check it's description, price and name.
+
+![screenshot](./src/images/one.png)
+![screenshot](./src/images/two.png)
 
 [Live Link](https://space-x-travellers.netlify.app/)
 
-> Glam It Up website is built with real live data from the Make up API. The application displays a variety of beauty products such as lipsticks, bronzers, foundation among many other products. You can select any product type that is available and check it's description, price and name.
 
 Additional description about the project and its features.
 
@@ -57,7 +59,6 @@ $ cd glam_it_up
 
 ```bash
 $ npm install
-$ npm build
 $ npm start
 ```
 
