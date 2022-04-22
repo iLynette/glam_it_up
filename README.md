@@ -81,9 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thank you to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing this awesome design.
 
 ## 📝 License
 
