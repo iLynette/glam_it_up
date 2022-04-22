@@ -11,7 +11,7 @@ export const fetchProducts = (payload) => ({
 
 export const fetchProductFromApi = () => async (dispatch) => {
   const data = await axios.get(
-    'http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline',
+    'https://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline',
   );
   dispatch(fetchProducts(data));
 };
