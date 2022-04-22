@@ -1,7 +1,6 @@
 {
   "name": "glam_it_up",
   "version": "0.1.0",
-  "homepage": "https://iLynette.github.io/glam_it_up",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
