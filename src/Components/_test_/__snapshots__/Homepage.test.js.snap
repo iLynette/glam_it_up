@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`The categories render properly renders correctly 1`] = `
+exports[`The homepage render properly renders correctly 1`] = `
 Array [
   <select
     className="items"

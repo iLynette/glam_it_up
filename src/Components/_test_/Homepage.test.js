@@ -8,7 +8,7 @@ const HomePageProvider = () => (
     </Provider>
 )
 
-describe('The categories render properly', () => {
+describe('The homepage render properly', () => {
     it('renders correctly', () => {
         const component = renderer.create(<HomePageProvider />).toJSON()
         expect(component).toMatchSnapshot();
