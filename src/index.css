@@ -12,7 +12,6 @@
 * {
   margin: 0;
   padding: 0;
-  color: #000;
   text-decoration: none;
   list-style-type: none;
   font-family: 'Lato', sans-serif;
@@ -20,10 +19,6 @@
 
 body {
   background-color: var(--main);
-}
-
-.navigationBar {
-  box-shadow: -1px -1px 15px 2px #c0b5b5;
 }
 
 .bar {
@@ -34,18 +29,35 @@ body {
   box-shadow: -1px -1px 1px 2px #ce3771;
 }
 
+.arrow {
+  color: #fff;
+}
+
 .btn {
   font-size: 25px;
   border: 2px solid #000;
   background-color: #fff;
   border-radius: 50%;
-  color: #fff;
+  color: var(--main);
   display: flex;
   align-self: center;
 }
 
 .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 30px;
+}
+
+.navigationBar span {
+  color: #fff;
+  font-size: 22px;
+}
+
+.navigationBar h3 {
+  color: #fff;
+  font-size: 20px;
 }
 
 .min {
@@ -126,14 +138,21 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    box-shadow: -1px -1px 1px 2px #ce3771;
+  }
+
+  .navMenus h3 {
+    color: #fff;
+  }
+
+  .arrow {
+    font-size: 24px;
+    color: #fff;
   }
 
   .products {
     display: grid;
-    grid-template-columns: repeat(2, 15rem);
-    justify-content: center;
-    margin: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
   }
 
   .products > div {
