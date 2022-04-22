@@ -7,7 +7,7 @@
 ![screenshot](./src/images/one.png)
 ![screenshot](./src/images/two.png)
 
-[Live Link](https://space-x-travellers.netlify.app/)
+[Live Link](https://ilynettes-glam-app.herokuapp.com/)
 
 [Loom Video](https://www.loom.com/share/738c4888330745798ab4f6e2895449f8)
 
