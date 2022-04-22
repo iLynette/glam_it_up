@@ -5,7 +5,6 @@ Array [
   <select
     className="items"
     onChange={[Function]}
-    onClick={[Function]}
     required={true}
   >
     <option

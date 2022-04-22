@@ -7,8 +7,13 @@ const Categories = (props) => {
   const newItem = [...new Set(data.data.map((makeup) => makeup.product_type))];
   const { handleClick } = props;
 
+  const handleSelected = (s) => {
+    setProductType(s);
+    handleClick(s);
+  };
+
   return (
-    <select className="items" onChange={(e) => setProductType(e.target.value)} onClick={handleClick} required>
+    <select className="items" onChange={(e) => handleSelected(e.target.value)} required>
       <option value="select a product type">
         select a product type
         {product}

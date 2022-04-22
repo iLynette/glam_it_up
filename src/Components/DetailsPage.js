@@ -10,7 +10,7 @@ const DetailsPage = () => {
     dispatch(fetchProductFromApi());
   }, []);
   const { id } = useParams();
-  const filterProducts = data.filter(
+  const filterProducts = data.products.filter(
     (product) => product.id === parseInt(id, 10),
   );
   return (
