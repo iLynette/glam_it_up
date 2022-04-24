@@ -7,7 +7,7 @@
 ![screenshot](./src/images/one.png)
 ![screenshot](./src/images/two.png)
 
-[Live Link](https://ilynettes-glam-app.herokuapp.com/)
+[Live Link](https://ilynettes-glam.netlify.app/)
 
 [Loom Video](https://www.loom.com/share/738c4888330745798ab4f6e2895449f8)
 
@@ -81,9 +81,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Special thank you to [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) for providing this awesome design.
 
 ## 📝 License
 

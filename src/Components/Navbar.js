@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { HiMicrophone } from 'react-icons/hi';
 import { MdKeyboardArrowLeft } from 'react-icons/md';
+import { FaRegSun } from 'react-icons/fa';
 
 const Navbar = () => (
   <nav className="navigationBar">
@@ -9,25 +10,19 @@ const Navbar = () => (
       <ul className="navMenus">
         <li>
           <NavLink className="home" to="/">
-            <MdKeyboardArrowLeft />
+            <MdKeyboardArrowLeft className="arrow" />
+            <span>2015</span>
           </NavLink>
         </li>
       </ul>
-      {/* <MdOutlineSentimentVerySatisfied /> */}
       <h3>
         Glam It Up
       </h3>
-      <HiMicrophone />
+      <span className="one">
+        <HiMicrophone className="arrow" />
+        <FaRegSun />
+      </span>
     </div>
-    {/* <div className="nav">
-      <ul className="navMenus">
-        <li>
-          <NavLink className="home" to="/">
-            <MdKeyboardArrowLeft />
-          </NavLink>
-        </li>
-      </ul>
-    </div> */}
   </nav>
 );
 
