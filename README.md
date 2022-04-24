@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/GlamItUp-violet)
 
-# Space Traveler
+# Glam It Up
 
 > Glam It Up website is built with real live data from the Make up API. The application displays a variety of beauty products such as lipsticks, bronzers, foundation among many other products. You can select any product type that is available and check it's description, price and name.
 
